@@ -4,8 +4,13 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-
+import useDownloader from "react-use-downloader"; 
 const HeroSection = () => {
+   const { download} =  useDownloader(); 
+
+  const fileUrl = "./nextjs-portfolio/public/swe.pdf"; 
+  const filename = "TedysResume.pdf"; 
+
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -22,7 +27,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Tedy",
                 1000,
                 "Web Developer",
                 1000,
@@ -37,24 +42,23 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+            I am a 25 year old developer, I am looking for a full-stack position at your company! I have worked in healthcare industry and have a interest in Fin-Tech.
           </p>
           <div>
             <Link
-              href="/contact"
+              href="https://www.linkedin.com/in/tedy-yohanes-847819120/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
-            <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            {/* Updated the Download CV link */}
+            <a
+              href="/swe.pdf" // Update the href to the correct path of your PDF file
+              download="TedysResume.pdf" // Specify the desired filename for the downloaded file
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-900 to-secondary-500 hover:bg-slate-200 text-white"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
+              Download CV
+            </a>
           </div>
         </motion.div>
         <motion.div
@@ -68,7 +72,7 @@ const HeroSection = () => {
               src="/images/hero-image.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
+              width={200}
               height={300}
             />
           </div>
