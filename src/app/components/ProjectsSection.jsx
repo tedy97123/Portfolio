@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/finDash/fdash.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/tedy97123/finance-app",
-    previewUrl: "https://653191ada349d32befa70e65--stellular-torte-3a769e.netlify.app/",
+    previewUrl: "https://stellular-torte-3a769e.netlify.app/",
   },
   {
     id: 5,
