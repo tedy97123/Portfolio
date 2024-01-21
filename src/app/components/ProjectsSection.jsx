@@ -24,15 +24,6 @@ const projectsData = [
     previewUrl: "https://652f05a59aea69076180539b--whimsical-taiyaki-a8c844.netlify.app/",
   },
   {
-    id: 3,
-    title: "Mobile Crypto Application",
-    description: "Project 4 description",
-    image: "images/projects/madeTheTrade/mte.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/tedy97123/MadeTheTrade",
-    previewUrl: "/",
-  },
-  {
     id: 4,
     title: "React TS Finacnial DashBoard",
     description: "Financial Dashboard with ML regressions",
