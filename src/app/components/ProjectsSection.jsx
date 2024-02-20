@@ -47,7 +47,7 @@ const projectsData = [
     image: "/images/projects/HR/image.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/tedy97123/finance-app",
-    previewUrl: "https://stellular-torte-3a769e.netlify.app/",
+    previewUrl: "https://accrualifytedy.onrender.com",
   },
 ];
 
