@@ -8,7 +8,6 @@ const projectsData = [
   {
     id: 1,
     title: "React Gym Portfolio Website",
-    description: "Project 2 description",
     image: "/images/projects/gymapp/gymapp.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/tedy97123/React/tree/main/gymapp",
@@ -16,8 +15,8 @@ const projectsData = [
   },
   {
     id: 2,
+    description: "Old portfolio",
     title: "React Portfolio Application",
-    description: "Project 3 description",
     image: "images/projects/portfolio/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/tedy97123/React/tree/main/Portfolio_Website",
@@ -26,7 +25,7 @@ const projectsData = [
   {
     id: 3,
     title: "Mobile Crypto Application",
-    description: "Project 4 description",
+    description: "Mobile Application where you can view financial information and learn about stocks",
     image: "images/projects/madeTheTrade/mte.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/tedy97123/MadeTheTrade",
@@ -37,6 +36,15 @@ const projectsData = [
     title: "React TS Finacnial DashBoard",
     description: "Financial Dashboard with ML regressions",
     image: "/images/projects/finDash/fdash.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/tedy97123/finance-app",
+    previewUrl: "https://stellular-torte-3a769e.netlify.app/",
+  },
+    {
+    id: 5,
+    title: "React TS HR Time sheet ",
+    description: "Clockin Payroll app",
+    image: "/images/projects/HR/image.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/tedy97123/finance-app",
     previewUrl: "https://stellular-torte-3a769e.netlify.app/",
