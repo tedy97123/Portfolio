@@ -38,7 +38,7 @@ const projectsData = [
     image: "/images/projects/finDash/fdash.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/tedy97123/finance-app",
-    previewUrl: "https://stellular-torte-3a769e.netlify.app/",
+    previewUrl: "https://master--stellular-torte-3a769e.netlify.app/",
   },
     {
     id: 5,
@@ -49,6 +49,7 @@ const projectsData = [
     gitUrl: "https://github.com/tedy97123/finance-app",
     previewUrl: "https://accrualifytedy.onrender.com",
   },
+  
 ];
 
 const ProjectsSection = () => {
